@@ -1,0 +1,17 @@
+name: memcached-operator
+version: 0.1.0
+
+authors:
+  - Cyril Mizzi <cyril.mizzi@neo9.fr>
+
+targets:
+  memcached-operator:
+    main: src/memcached-operator.cr
+
+dependencies:
+  kube-client:
+    github: spoved/kube-client.cr
+
+crystal: 1.4.0
+
+license: MIT
